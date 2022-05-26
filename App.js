@@ -39,7 +39,6 @@ const App = () => {
 					color='#5e0acc'
 					onPress={startAddGoalHandler}
 				/>
-				<View style={{ marginBottom: 20 }}></View>
 				<GoalInput
 					visible={modalIsVisible}
 					onAddGoal={addGoalHandler}
